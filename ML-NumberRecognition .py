@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 
 #  split Data into training and testing sets
-(x_train, y_train), (x_test, y_test) = keras.Downloads/NumberRecognitionDataset.load_data()
+(x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
 
 
 # In[4]:
